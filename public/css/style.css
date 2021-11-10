@@ -1,5 +1,14 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(122, 140, 212);
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
 }
 
 img {
@@ -9,20 +18,64 @@ img {
 #homeImg {
   width: 50rem;
 }
+nav {
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-evenly;
+  background-color: rgb(196, 206, 218);
+  border-radius: 10px;
+  margin: 5px 25px 5px 25px;
+}
 
 button {
   border: 1px solid darkgray;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 10px 20px;
   margin: 5px 10px;
   font-size: 14px;
-  color: black;
+  background-color: rgba(134, 75, 75, 0.404);
+  width: 120px;
+  text-align: center;
 }
-
-a {
+button:hover {
+  background-color: white;
+}
+nav a {
   text-decoration: none;
 }
-
+div article {
+  margin: 10px;
+}
+.quoteSH {
+  text-align: center;
+}
+.pageImg {
+  vertical-align: text-top;
+  border-radius: 10px;
+  margin: 5px;
+  position: relative;
+}
+.homesection {
+  display: flex;
+}
+.quote1 {
+  width: 300px;
+  height: 60px;
+  font-style: italic;
+  margin: 5px 10px 80px 10px;
+  font-size: 1.4em;
+  text-align: center;
+}
+.quote2 {
+  width: 300px;
+  height: 60px;
+  font-style: italic;
+  margin: 5px 10px 80px 10px;
+  font-size: 1.4em;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(68, 57, 57, 0.548);
+}
 div {
   border: 1px solid darkgray;
   border-radius: 15px;
